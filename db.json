@@ -1,102 +1,104 @@
 {
-  "transactions": [
-    {
-      "id": 1,
-      "date": "2019-12-01",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
-    },
-    {
-      "id": 2,
-      "date": "2019-12-01",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
-    },
-    {
-      "id": 3,
-      "date": "2019-12-02",
-      "description": "South by Southwest Quinoa Bowl at Fresh & Co",
-      "category": "Food",
-      "amount": -10.55
-    },
-    {
-      "id": 4,
-      "date": "2019-12-04",
-      "description": "Sunglasses, Urban Outfitters",
-      "category": "Fashion",
-      "amount": -24.99
-    },
-    {
-      "id": 5,
-      "date": "2019-12-06",
-      "description": "Venmo, Alice Pays you for Burrito",
-      "category": "Food",
-      "amount": 8.75
-    },
-    {
-      "id": 6,
-      "date": "2019-12-06",
-      "description": "Chipotle",
-      "category": "Food",
-      "amount": -17.59
-    },
-    {
-      "id": 7,
-      "date": "2019-12-07",
-      "description": "Birthday Check from Grandma",
-      "category": "Gift",
-      "amount": 50
-    },
-    {
-      "id": 8,
-      "date": "2019-12-09",
-      "description": "Lyft Ride",
-      "category": "Transportation",
-      "amount": -13.25
-    },
-    {
-      "id": 9,
-      "date": "2019-12-11",
-      "description": "Paycheck from Bob's Burgers",
-      "category": "Income",
-      "amount": 1000
-    },
-    {
-      "id": 10,
-      "date": "2019-12-16",
-      "description": "Tickets, Flatiron Multiplex Cinemas",
-      "category": "Entertainment",
-      "amount": -24
-    },
-    {
-      "id": 11,
-      "date": "2019-12-16",
-      "description": "MTA Vending Machine: MetroCard",
-      "category": "Transportation",
-      "amount": -116.39
-    },
-    {
-      "id": 12,
-      "date": "2019-12-17",
-      "description": "Venmo, Pay Roommate for Rent",
-      "category": "Housing",
-      "amount": -975
-    },
-    {
-      "date": "2022-07-09",
-      "description": "Office lunch",
-      "category": "Food",
-      "amount": "2000",
-      "id": 13
-    },
-    {
-      "date": "2022-07-09",
-      "description": "Office lunch Wednesday",
-      "category": "Food",
-      "amount": "3000",
-      "id": 14
-    }
-  ]
+    "locations": [
+        {
+            "id": 0,
+            "name": "Acme Fresh Start Housing",
+            "city": "Chicago",
+            "state": "IL",
+            "photo": "https://angular.dev/assets/images/tutorials/common/bernard-hermant-CLKGGwIBTaY-unsplash.jpg",
+            "availableUnits": 4,
+            "wifi": true,
+            "laundry": true
+        },
+        {
+            "id": 1,
+            "name": "A113 Transitional Housing",
+            "city": "Santa Monica",
+            "state": "CA",
+            "photo": "https://angular.dev/assets/images/tutorials/common/brandon-griggs-wR11KBaB86U-unsplash.jpg",
+            "availableUnits": 0,
+            "wifi": false,
+            "laundry": true
+        },
+        {
+            "id": 2,
+            "name": "Warm Beds Housing Support",
+            "city": "Juneau",
+            "state": "AK",
+            "photo": "https://angular.dev/assets/images/tutorials/common/i-do-nothing-but-love-lAyXdl1-Wmc-unsplash.jpg",
+            "availableUnits": 1,
+            "wifi": false,
+            "laundry": false
+        },
+        {
+            "id": 3,
+            "name": "Homesteady Housing",
+            "city": "Chicago",
+            "state": "IL",
+            "photo": "https://angular.dev/assets/images/tutorials/common/ian-macdonald-W8z6aiwfi1E-unsplash.jpg",
+            "availableUnits": 1,
+            "wifi": true,
+            "laundry": false
+        },
+        {
+            "id": 4,
+            "name": "Happy Homes Group",
+            "city": "Gary",
+            "state": "IN",
+            "photo": "https://angular.dev/assets/images/tutorials/common/krzysztof-hepner-978RAXoXnH4-unsplash.jpg",
+            "availableUnits": 1,
+            "wifi": true,
+            "laundry": false
+        },
+        {
+            "id": 5,
+            "name": "Hopeful Apartment Group",
+            "city": "Oakland",
+            "state": "CA",
+            "photo": "https://angular.dev/assets/images/tutorials/common/r-architecture-JvQ0Q5IkeMM-unsplash.jpg",
+            "availableUnits": 2,
+            "wifi": true,
+            "laundry": true
+        },
+        {
+            "id": 6,
+            "name": "Seriously Safe Towns",
+            "city": "Oakland",
+            "state": "CA",
+            "photo": "https://angular.dev/assets/images/tutorials/common/phil-hearing-IYfp2Ixe9nM-unsplash.jpg",
+            "availableUnits": 5,
+            "wifi": true,
+            "laundry": true
+        },
+        {
+            "id": 7,
+            "name": "Hopeful Housing Solutions",
+            "city": "Oakland",
+            "state": "CA",
+            "photo": "https://angular.dev/assets/images/tutorials/common/r-architecture-GGupkreKwxA-unsplash.jpg",
+            "availableUnits": 2,
+            "wifi": true,
+            "laundry": true
+        },
+        {
+            "id": 8,
+            "name": "Seriously Safe Towns",
+            "city": "Oakland",
+            "state": "CA",
+            "photo": "https://angular.dev/assets/images/tutorials/common/saru-robert-9rP3mxf8qWI-unsplash.jpg",
+            "availableUnits": 10,
+            "wifi": false,
+            "laundry": false
+        },
+        {
+            "id": 9,
+            "name": "Capital Safe Towns",
+            "city": "Portland",
+            "state": "OR",
+            "photo": "https://angular.dev/assets/images/tutorials/common/webaliser-_TPTXZd9mOo-unsplash.jpg",
+            "availableUnits": 6,
+            "wifi": true,
+            "laundry": true
+        }
+    ]
 }
